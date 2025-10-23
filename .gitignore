@@ -1,34 +1,30 @@
-HELP.md
-target/
-.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+# Build
+/target
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# Logs
+*.log
 
-### IntelliJ IDEA ###
-.idea
-*.iws
+# Compiled Java classes
+*.class
+
+# Application properties (credentials, configs)
+application.properties
+
+# Environment variables
+.env
+
+# IDEs
+.idea/
 *.iml
 *.ipr
+*.iws
+*.classpath
+*.project
+.settings/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+# MacOS
+.DS_Store
 
-### VS Code ###
-.vscode/
-.env
+# Node (se tiver frontend React)
+node_modules/
+dist/

@@ -1,6 +1,7 @@
-package com.petstyle.backend.repository;
+package com.petstyler.backend.repository;
+import com.petstyler.backend.model.Booking;
 
-import com.petstyle.backend.model.Booking;
+
 import org.springframework.data.mongodb.repository.MongoRepository;
 import java.util.List;
 

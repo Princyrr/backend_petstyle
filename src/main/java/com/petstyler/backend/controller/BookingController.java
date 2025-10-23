@@ -1,7 +1,8 @@
-package com.petstyle.backend.controller;
+package com.petstyler.backend.controller;
 
-import com.petstyle.backend.model.Booking;
-import com.petstyle.backend.repository.BookingRepository;
+import com.petstyler.backend.model.Booking;
+import com.petstyler.backend.repository.BookingRepository;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
